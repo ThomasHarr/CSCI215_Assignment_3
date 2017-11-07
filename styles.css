@@ -1,0 +1,19 @@
+html, body, a, #gallery, #enlargedImage{
+    margin: 0;
+    padding: 0;
+}
+
+#gallery{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#enlargedImage{
+    margin: auto;
+}

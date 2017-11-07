@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gallery">
+        <a href="javascript: enlarge('images/charleston.jpg');">
+            <img src="images/charleston.jpg" width="150" height="100">
+        </a>&nbsp; &nbsp;
+        <a href="javascript: enlarge('images/kansas.jpg');">
+            <img src="images/kansas.jpg" width="150" height="100">
+        </a>&nbsp; &nbsp;
+        <a href="javascript: enlarge('images/london.jpg');">
+            <img src="images/london.jpg" width="150" height="100">
+        </a>&nbsp; &nbsp;
+        <a href="javascript: enlarge('images/newyork.jpg');">
+            <img src="images/newyork.jpg" width="150" height="100">
+        </a>&nbsp; &nbsp;
+        <a href="javascript: enlarge('images/seattle.jpg');">
+            <img src="images/seattle.jpg" width="150" height="100">
+        </a>&nbsp; &nbsp;
+
+        <div id="enlargedImage" style="position: inherit; top: -70px; height: 400px; width: 800px; visibility: hidden;"></div>
+    </div>
+
+
+</body>
+<script src="js.js"></script>
+</html>
