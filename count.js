@@ -1,18 +1,11 @@
 
 inputStatement = document.getElementById('input');
-inputStatement.addEventListener('keypress', inputText);
-var numChar = 0;
+inputStatement.addEventListener('keyup', inputText);
 
 function inputText(){
-    numChar += 1;
-    calculations(numChar);
-    inputStatement.keypress = function (e) {
-        var code = e.keyCode ? e.keyCode : e.which;
-        if (code === 8) {
-            numChar -= 1;
-            calculations(numChar);
-        }
-    }
+    calculations(inputStatement.value.length);
+    console.log(inputStatement.value.length);
+
 }
 
 
